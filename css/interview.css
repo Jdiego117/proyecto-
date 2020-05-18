@@ -1,0 +1,94 @@
+.question {
+	margin-top: 50vh;
+	margin-left: 50vw;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.type1 {
+	width: 50vw;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+	overflow: hidden;
+}
+
+.type1 .header {
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+
+.type1 .header > div {
+	display: flex;
+	align-items: center;
+	padding: 2%;
+	font-size: 1.3em;
+} 
+
+.type1 .header :nth-child(1) {
+	justify-content: center;
+}
+
+.type1 .input {
+	padding: 5%;
+}
+
+.type1 .input input {
+	width: 80%;
+	border: none;
+	font-size: 2em;
+	box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+	border-color: #9ecaed;
+   box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+}
+
+.type1 .btn {
+	padding: 2%;
+	width: 100%;
+}
+
+.type1 .btn button {
+	width: 20%;
+	float: right;
+}
+
+.type2 {
+	width: 50vw;
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translateX(-50%);
+	box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+	overflow: hidden;
+}
+
+.type2 .header {
+	display: grid;
+	grid-template-columns: 20% 80%;
+}
+
+.type2 .header > div {
+	display: flex;
+	align-items: center;
+	padding: 2%;
+	font-size: 1.3em;
+} 
+
+.type2 .header :nth-child(1) {
+	justify-content: center;
+}
+
+.type2 .input {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+.type2 .input > div {
+	padding: 5%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
